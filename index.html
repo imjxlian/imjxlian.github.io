@@ -1,32 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ImJulian V3</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <link rel="icon" type="image/x-icon" href="imgs/favicon.ico">
+    <link rel="icon" type="image/png" href="imgs/favicon-16x16.png">
+    <link rel="icon" type="image/png" href="imgs/favicon-32x32.png">
+    <link rel="icon" type="image/png" href="imgs/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" href="imgs/android-chrome-512x512.png">
+    <link rel="apple-touch-icon" type="image/png" href="imgs/apple-touch-icon.png">
+    <title>Julian FORME | Portfolio</title>
 </head>
-<body>
-    <style>
-        body {
-            background-color: rgb(18, 12, 34);
-            color: white;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-            padding: 0;
-        }
 
-        h1 {
-            font-family: Helvetica, sans-serif;
-            font-size: 3em;
-            vertical-align: middle;
-            margin: 0;
-        }
-    </style>
-    <h1>🛠️ Website is under maintenance... ⚙️</h1>
+<body>
+    <div class="top-border"></div>
+    <header class="bg-light py-5">
+        <div class="container d-flex flex-md-row flex-column justify-content-center align-items-center text-center">
+            <img class="rounded-circle mb-md-0 me-md-5 mb-5 profil-img" src="imgs/photo_profil.jpg"
+                alt="Image de Julian FORME" title="Portfolio | Julian FORME">
+            <div class="top-infos d-flex flex-column justify-content-center">
+                <h1 class="my-name">Julian FORME</h1>
+                <h2 class="mb-3 my-title">Student & Back-end Developer</h2>
+                <ul class="d-flex justify-content-center p-0 m-0"> <a
+                        class="social-btns rounded-circle p-3 text-white mx-3 d-flex align-items-center justify-content-center"
+                        target="_blank" href="https://github.com/7jxlian7" title="GitHub | Julian FORME"> <i
+                            class="bi bi-github"></i> </a> <a
+                        class="social-btns rounded-circle p-3 text-white mx-3 d-flex align-items-center justify-content-center"
+                        target="_blank" href="https://twitter.com/7jxlian7" title="Twitter | Julian FORME"> <i
+                            class="bi bi-twitter"></i> </a> <a
+                        class="social-btns rounded-circle p-3 text-white mx-3 d-flex align-items-center justify-content-center"
+                        target="_blank" href="https://instagram.com/7jxlian7" title="Instagram | Julian FORME"> <i
+                            class="bi bi-instagram"></i> </a> <a
+                        class="social-btns rounded-circle p-3 text-white mx-3 d-flex align-items-center justify-content-center"
+                        target="_blank" href="https://www.linkedin.com/in/julianforme/" title="Linkedin | Julian FORME">
+                        <i class="bi bi-linkedin"></i> </a> <a
+                        class="social-btns rounded-circle p-3 text-white mx-3 d-flex align-items-center justify-content-center"
+                        href="mailto:jforme.pro@gmail.com" title="Email | Julian FORME"> <i class="bi bi-envelope"></i>
+                    </a> </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 col-lg-8 px-4">
+                    <section class="section-style purple-border">
+                        <h2 class="mb-3 section-title">About me</h2>
+                        <p>I'm Julian, <span class="bold">19 year old</span> student. I'm studying at the <span
+                                class="bold">computer science IUT of Bordeaux</span>.</p>
+                    </section>
+                    <section class="section-style orange-border">
+                        <h2 class="mb-3 section-title">Work Experience</h2>
+                        <div class="mb-4">
+                            <h5 class="section-subtitle">Student - <span class="secondary-info">Computer Science IUT of
+                                    Bordeaux, (2020 - Now)</span></h5>
+                            <p> Thanks to this training I learned the basics of computer programming. I learned several
+                                programming languages ​​such as Java, C#, C, HTML, CSS, PHP... But also math,
+                                communication and how to collaborate with someone properly. </p>
+                        </div>
+                        <div>
+                            <h5 class="section-subtitle">Intern - <span class="secondary-info">CGI, (May 2017)</span>
+                            </h5>
+                            <p> During this internship I discovered the work in companies, in particular the
+                                organization in their work. I was on my own, I just had to watch because I didn't have
+                                the skills to code yet. </p>
+                        </div>
+                    </section>
+                    <section id="projects" class="section-style green-border">
+                        <h2 class="mb-3 section-title">Projects</h2> <!-- here are all the project items -->
+                    </section>
+                </div>
+                <div class="col-12 col-lg-4 px-4">
+                    <section class="section-style yellow-border">
+                        <h2 class="mb-3 section-title">Informations</h2>
+                        <p><i class="bi bi-geo-alt-fill rand-color"></i>Gradignan, 33170, France</p>
+                        <p><i class="bi bi-envelope rand-color"></i><a href="mailto:jforme.pro@gmail.com">jforme.pro@gmail.com</a>
+                        </p>
+                        <p><i class="bi bi-cloud-download rand-color"></i><a href="ressources/cv.pdf"
+                                download="Julian_FORME_CV">Download CV</a></p>
+                    </section>
+                    <section class="section-style pink-border">
+                        <h2 class="mb-3 section-title">Skills</h2>
+                        <h5 class="section-subtitle">Languages</h5>
+                        <ul class="list ps-4">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Javascript</li>
+                            <li>PHP</li>
+                            <li>Java</li>
+                            <li>C#</li>
+                            <li>C</li>
+                        </ul>
+                        <h5 class="section-subtitle">Frameworks</h5>
+                        <ul class="list ps-4">
+                            <li>Bootstrap</li>
+                            <li>Symfony</li>
+                            <li>Angular</li>
+                        </ul>
+                        <h5 class="section-subtitle">Softwares</h5>
+                        <ul class="list ps-4 mb-0">
+                            <li>Eclipse</li>
+                            <li>Git</li>
+                            <li>Microsoft SQL Server</li>
+                            <li>NetBeans</li>
+                            <li>Office Suit</li>
+                            <li>Visual Studio</li>
+                            <li>Visual Studio Code</li>
+                        </ul>
+                    </section>
+                    <section class="section-style blue-border">
+                        <h2 class="mb-3 section-title">Hobbies</h2>
+                        <p><i class="bi bi-controller rand-color"></i>Video games</p>
+                        <p><i class="bi bi-dribbble rand-color"></i>Tennis</p>
+                        <p><i class="bi bi-cloud-snow rand-color"></i>Ski</p>
+                    </section>
+                    <section class="section-style red-border">
+                        <h2 class="mb-3 section-title">Favourites</h2>
+                        <p><i class="bi bi-music-note-beamed rand-color"></i><a
+                                href="https://www.youtube.com/watch?v=BRTDC9Z5UdE">J't'emmène, Louise Attaque</a></p>
+                        <p><i class="bi bi-code-slash rand-color"></i>PHP</p>
+                        <p><i name="favourite-color" class="bi bi-palette fav-color"></i>Green</p>
+                        <p><i class="bi bi-joystick rand-color"></i>Rocket League</p>
+                    </section>
+                    <section id="stats" class="section-style grey-border">
+                        <h2 class="mb-3 section-title">GitHub's Stats</h2>
+                        <p><i class="bi bi-calendar-plus-fill rand-color"></i>Created on : <span id="date-creation-account">Loading...</span></p>
+                        <p><i class="bi bi-bookmark-star-fill rand-color"></i><span id="public-repos-count">Loading...</span> public repositories</p>
+                        <p><i class="bi bi-people-fill rand-color"></i><span id="followers-count">Loading...</span> followers</p>
+                        <p><i class="bi bi-person-fill rand-color"></i><span id="following-count">Loading...</span> following</p>
+                        <p><i class="bi bi-star-fill rand-color"></i><span id="stars-count">Loading...</span> stars</p>
+                        <p><i class="bi bi-arrow-up-circle-fill rand-color"></i><span id="contributions-count">Loading...</span> contributions in <span class="year"></span></p>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="top-border"></div>
+    <footer class="d-flex justify-content-center p-3 bg-dark text-white">
+        <p class="m-0">&copy; Julian - <span class="year"></span></p>
+    </footer>
 </body>
 </html>
